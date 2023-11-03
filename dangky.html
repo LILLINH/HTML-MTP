@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangky.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="anh/logo.png" alt="" class="anhlogo">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="artist.html">
+                            CA SĨ
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="schedule.html">
+                            LỊCH TRÌNH
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="news.html">
+                            TIN TỨC
+                        </a>
+                    </li>
+                </ul>
+               
+                <ul>
+                    <li>
+                        <a href="gallery.html">
+                           THƯ VIỆN
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="shop.html">
+                            CỬA HÀNG
+                        </a>
+                    </li>
+                </ul>
+                <ul >
+                    <li style="float: right;">
+                        <a href="#">
+                            ĐĂNG KÍ
+                        </a>
+                    </li>
+                </ul>
+                <ul >
+                    <li style="float: right;">
+                        <a href="#">
+                            ĐĂNG NHẬP
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        
+    </header>
+    <hr>
+    <main>
+        
+        <script>
+            function kiemtra() {
+                var email = document.getElementById("email");
+                var Password = document.getElementById("Password");
+             
+                if (email.value.length == 0) {
+                    alert("Chua nhap ho !");
+                }
+                if (Password.value.length == 0) {
+                    alert("Chua nhap ten !");
+                }
+               
+            }
+     
+        </script>
+        <div class="formdangki">
+            <div class=" dk">
+                <h1>FROM ĐĂNG KÍ</h1>
+            </div>
+            <form onsubmit="kiemtra()" >
+          
+            
+                <div class="dangki">
+                    <p>
+                        <label>Email</label> <br>
+                        <input type="text" id="email">
+                    </p>
+                    <p>
+                        <label>Password</label><br>
+                        <input type="text" id="Password">
+                    </p>
+                </div>
+             
+     
+                    
+                  
+            <center>
+                <button>Đăng ký</button>
+            </center>
+                
+            </form>
+        </div>
+       
+        
+        <footer>
+            
+            <br>
+            <div class="congty">
+                CÔNG TY TNHH M-TP ENTERTAINMENT
+                <ul>
+                    Tầng trệt, Tòa nhà ROSANA, Số 60 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, <br>
+                    Thành phố Hồ Chí Minh, Việt Nam.
+                    <br> GPKD Số 0314101016 Do Sở kế hoạch và đầu tư cấp ngày 08/11/2016
+                </ul>
+    
+            </div>
+            <div class="logo2">
+                <a href="index.html">
+                    <img src="anh/logo.png" alt="" class="anhlogo2">
+                </a>
+            </div>
+            <div class="like">
+                <iframe
+                    src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMTP.Fan&width=450&layout=standard&action=like&size=large&share=true&height=35&appId"
+                    width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+    
+        </footer>
+    </main>
+    
+</body>
+</html>
